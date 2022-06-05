@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume | Siyu Hu</title>
+  <style
+    rel="stylesheet">a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+  }
+
+  html {
+    line-height: 1
+  }
+
+  ol, ul {
+
+    list-style: none
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0
+  }
+
+  caption, td, th {
+    text-align: left;
+    font-weight: 400;
+    vertical-align: middle
+  }
+
+  blockquote, q {
+    quotes: none
+  }
+
+  blockquote:after, blockquote:before, q:after, q:before {
+    content: "";
+    content: none
+  }
+
+  a img {
+    border: none
+  }
+
+  elements-of-type
+  (
+  html5-block
+
+  )
+  {
+    display: block
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    user-select: none
+  }
+
+  body {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    background-color: #eee;
+    overflow: auto;
+    padding-top: 5px;
+    /*text-transform: capitalize;*/
+
+  }
+  /*cv*/
+  /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);*/
+
+
+  use {
+    text-transform: uppercase;
+    fill: none;
+    stroke-width: 4;
+    letter-spacing: 4px;
+    font: 100px Helvetica, Impact;
+    -webkit-animation: dash 10s linear infinite;
+    animation: dash 10s linear infinite;
+  }
+
+  @-webkit-keyframes dash {
+    from {
+      stroke-dashoffset: -100%;
+    }
+    to {
+      stroke-dashoffset: 0%;
+    }
+  }
+
+  @keyframes dash {
+    from {
+      stroke-dashoffset: -100%;
+    }
+    to {
+      stroke-dashoffset: 0%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    body {
+      padding-top: 0
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #51795a;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+  }
+  .resume {
+    position: absolute;
+  }
+
+  .last-modified {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 1000px;
+    color: #bbb;
+    margin-left: -500px;
+    font-size: 12px;
+    text-align: right
+  }
+
+  @media screen and (max-width: 1024px) {
+    .last-modified {
+      display: none
+    }
+  }
+
+  @media print {
+    .last-modified {
+      display: none
+    }
+  }
+
+  .download-pdf {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    color: #bbb;
+    margin-left: -500px;
+    font-size: 12px;
+    text-align: right
+  }
+
+  @media screen and (max-width: 1024px) {
+    .download-pdf {
+      display: none
+    }
+  }
+
+  @media print {
+    .download-pdf {
+      display: none
+    }
+  }
+
+  .content {
+    position: relative;
+    width: 1024px;
+    margin: 50px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden
+  }
+
+  @media screen and (max-width: 1024px) {
+    .content {
+      width: 100%;
+      margin: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+      border-radius: 0
+    }
+  }
+
+  .content-hd {
+    width: 100%;
+    padding: 30px 50px;
+    color: #fff;
+    background-color: #0ee0ce;
+    overflow: hidden
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd {
+      padding: 25px 30px
+    }
+  }
+
+  @media print {
+    .content-hd {
+      color: #000;
+      background-color: #fff
+    }
+  }
+
+  .content-hd .title {
+    width: 100%;
+    border-bottom: 2px solid #51795a;
+    font-size: 52px;
+    font-weight: 300;
+    overflow: hidden;
+    padding-bottom: 5px;
+    margin-bottom: 5px
+  }
+
+  .content-hd .contact, .content-hd .info, .content-hd .job, .content-hd .name {
+    width: 50%
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .contact, .content-hd .info, .content-hd .job, .content-hd .name {
+      width: 100%;
+      text-align: center
+    }
+  }
+
+  .content-hd .name {
+    float: left
+  }
+
+  .content-hd .name h1 {
+    font-family: Lucida Grande, Hiragino Sans GB, Hiragino Sans GB W3, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .name h1 {
+      letter-spacing: 0;
+      line-height: 1.25;
+      margin-top: 10px
+    }
+  }
+
+  .content-hd .name h1 small {
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 24px;
+    padding-left: 10px
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .name h1 small {
+      display: block;
+      padding-left: 0;
+      font-size: 20px;
+      line-height: 1
+    }
+  }
+
+  .content-hd .job {
+    float: right;
+    text-align: right
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .job {
+      text-align: center
+    }
+  }
+
+  .content-hd .job h2 {
+    display: inline-block;
+    font-size: 24px
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .job h2 {
+      border-top: 1px solid #51795a;
+      margin: 5px auto 0;
+      padding: 10px
+    }
+  }
+
+  .content-hd .info {
+    float: left;
+    line-height: 22px
+  }
+
+  .content-hd .contact {
+    float: right;
+    text-align: right;
+    padding-right: 5px
+  }
+
+  .content-hd .contact ul {
+    margin: 8px 0 4px
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .contact ul {
+      text-align: center;
+      margin: 16px 0 0
+    }
+  }
+
+  .content-hd .contact ul > li {
+    height: 22px
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .contact ul > li {
+      display: inline-block
+    }
+  }
+
+  .content-hd .contact ul > li > a {
+    color: #fff;
+    font-family: Lucida Grande, Hiragino Sans GB, Hiragino Sans GB W3, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    font-size: 14px;
+    line-height: 22px
+  }
+
+  @media print {
+    .content-hd .contact ul > li > a {
+      color: #000
+    }
+  }
+
+  .content-hd .contact ul > li > a:hover {
+    color: #e8e8e8
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .contact ul > li > a .contact-link {
+      display: none
+    }
+  }
+
+  .content-hd .contact ul > li > a .iconfont {
+    fill: #fff;
+    vertical-align: text-top
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-hd .contact ul > li > a .iconfont {
+      margin: 5px 8px
+    }
+  }
+
+  .content-bd {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 30px 50px;
+    overflow: hidden
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-bd {
+      padding: 20px 20px 50px
+    }
+  }
+
+  .content-bd .content-left, .content-bd .content-right {
+    width: 50%
+  }
+
+  @media screen and (max-width: 1024px) {
+    .content-bd .content-left, .content-bd .content-right {
+      width: 100%
+    }
+  }
+
+  .content-bd .content-left {
+    float: left
+  }
+
+  .content-bd .content-right {
+    float: right
+  }
+
+  .content-bd section {
+    overflow: hidden;
+    padding: 10px 15px
+  }
+
+  .content-bd .section-hd {
+    position: relative;
+    height: 32px;
+    margin: 10px auto 5px;
+    overflow: hidden
+  }
+
+  .content-bd .section-bd {
+    overflow: hidden
+  }
+
+  .content-bd .section-bd ul li {
+    margin-top: 8px;
+    list-style: square inside
+  }
+
+  .content-bd .section-bd .item {
+    margin-bottom: 20px
+  }
+
+  .content-bd .section-title-l, .content-bd .section-title-r {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 35%;
+    height: 0;
+    vertical-align: middle;
+    border-top: 1px solid #ededed
+  }
+
+  .content-bd .section-title-l {
+    left: 0
+  }
+
+  .content-bd .section-title-r {
+    right: 0
+  }
+
+  .content-bd .section-title {
+    position: relative;
+    z-index: 1;
+    width: 24%;
+    min-width: 100px;
+    margin: 0 auto;
+    padding: 4px 10px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #eee
+  }
+
+  .content-bd .section-list {
+    padding: 10px 0 5px
+  }
+
+  .content-bd .item-hd {
+    position: relative;
+    padding: 10px 0 5px;
+    line-height: 20px;
+    overflow: hidden;
+    font-weight: 500;
+    min-height: 30px
+  }
+  .center{
+    position:relative;
+    align-content: center;
+    padding: 10px 60px 5px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .content-bd .item-hd .item-time {
+    display: inline-block;
+    float: left;
+    width: 60%
+  }
+
+  @media screen and (max-width: 720px) {
+    .content-bd .item-hd .item-time {
+      width: 100%;
+      margin-bottom: 5px
+    }
+  }
+
+  .content-bd .item-hd .item-more {
+    position: absolute;
+    top: 10px;
+    right: 0
+  }
+
+  .content-bd .item-hd .item-name {
+    float: left
+  }
+
+  .content-bd .item-bd {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 5px
+  }
+
+  .content-bd .item-des {
+    margin-bottom: 16px
+  }
+
+  .content-bd .section-content {
+    text-align: justify;
+    word-break: break-all;
+    line-height: 22px
+  }
+
+  .content-bd .section-content em {
+    display: inline-block;
+    font-family: Menlo, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #d1d1d1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    padding: 0 3px;
+    background-color: #f7f7f7
+  }
+
+  .content-bd .section-content strong {
+    font-family: Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px solid #f3f3f3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 500;
+    color: #444;
+    margin: 2px;
+    padding: 0 3px;
+    background-color: #f6f6f6
+  }
+
+  .content-bd .practice .item-time {
+    width: 100%
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0 5px;
+    border: 1px solid #51795a;
+    border-radius: 3px;
+    color: #51795a;
+    font-family: Menlo, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center
+  }
+
+  .btn:hover {
+    color: #fff;
+    background-color: #51795a
+  }
+
+  .github-footer {
+    text-align: center
+  }
+
+  .github-footer .footer-link {
+    display: inline-block;
+    color: #d1d1d1;
+    margin-bottom: 25px
+  }
+
+  @media screen and (max-width: 1024px) {
+    .github-footer .footer-link {
+      margin-top: 25px
+    }
+  }
+
+  @media print {
+    .github-footer {
+      display: none
+    }
+  }</style>
+  <base target="_blank">
+</head>
+<body>
+
+<p class="last-modified">Last update 2022.05</p>
+<svg class="resume" height="200" width="1000">
+  <symbol id="s-text">
+    <text x="20" y="120" style="text-align: center">CV</text>
+  </symbol>
+  <use xlink:href="#s-text" stroke="#51795A" stroke-dasharray="70,10"> </use>
+  <use xlink:href="#s-text" stroke="#333333" stroke-dasharray="70,90"></use>
+  <use xlink:href="#s-text" stroke="#EEEEEE" stroke-dasharray="70,250"></use>
+  <use xlink:href="#s-text" stroke="#FFD766" stroke-dasharray="70,570"></use>
+  <use xlink:href="#s-text" stroke="#C4847C" stroke-dasharray="70,570"></use>
+</svg>
+<!--<a class="download-pdf" href="http://resume.wuhaolin.cn/resume.pdf">下载 PDF</a>-->
+
+<main class="content">
+
+
+  <!--基本信息-->
+  <header class="content-hd">
+    <section class="title">
+      <div class="name">
+        <h1>Siyu Hu</h1>
+      </div>
+      <div class="job">
+        <h2>Digital and Interactive Design</h2>
+      </div>
+    </section>
+    <section class="info">
+      <ul>
+        <li>Male / 1999.3.27</li>
+        <li>University of Science and Technology Beijing</li>
+          <li>Department of Industrial Design</li>
+        <li>Bachelor of Engineering / Graduation in 2021</li>
+        <li>Major GPA: 86.7/100</li>
+      </ul>
+    </section>
+    <section class="contact">
+      <ul>
+        <li>
+          <a href="https://egbert.vercel.app/">
+            <span class="contact-link">Portfolio-web</span>
+            <span class="iconfont">
+              <svg width="16px" height="16px" viewBox="0 0 1024 1024">
+              <path d="M512 42.581333l-469.333333 469.333333 31.146667 31.146667L170.666667 446.250667l0 438.186667 682.666667 0L853.333333 446.208l96.853333 96.896 31.146667-31.146667L512 42.581333zM426.666667 841.770667l0-298.666667 170.666667 0 0 298.666667L426.666667 841.770667zM810.666667 841.770667l-170.666667 0 0-341.333333L384 500.437333l0 341.333333L213.333333 841.770667 213.333333 403.584l298.666667-298.666667 298.666667 298.666667L810.666667 841.770667z"></path>
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/gottaegbert">
+            <span class="contact-link">Github - gottaegbert</span>
+            <span class="iconfont">
+              <svg width="16px" height="16px" viewBox="0 0 1024 1024">
+                <path d="M941.714 512q0 143.433-83.712 258.011t-216.283 158.574q-15.433 2.853-22.565-3.986t-7.131-17.152v-120.576q0-55.442-29.696-81.152 32.585-3.438 58.587-10.277t53.723-22.272 46.299-37.998 30.281-60.014 11.703-86.016q0-69.157-45.129-117.723 21.138-52.005-4.571-116.553-16.018-5.157-46.299 6.29t-52.553 25.161l-21.723 13.714q-53.138-14.848-109.714-14.848t-109.714 14.848q-9.143-6.29-24.283-15.433t-47.726-22.016-49.152-7.717q-25.161 64.585-3.986 116.553-45.129 48.567-45.129 117.723 0 48.567 11.703 85.723t29.989 60.014 46.007 38.29 53.723 22.272 58.587 10.277q-22.857 20.553-28.014 58.843-11.995 5.705-25.71 8.558t-32.585 2.853-37.413-12.288-31.707-35.73q-10.862-18.286-27.721-29.696t-28.27-13.714l-11.447-1.719q-11.995 0-16.567 2.56t-2.853 6.583 5.157 8.009 7.424 6.839l3.986 2.853q12.581 5.705 24.869 21.723t17.993 29.147l5.705 13.129q7.424 21.723 25.161 35.145t38.29 17.152 39.717 3.986 31.707-2.011l13.129-2.304q0 21.723 0.293 50.871t0.293 30.866q0 10.277-7.424 17.152t-22.857 3.986q-132.571-43.995-216.283-158.574t-83.712-258.011q0-119.442 58.843-220.27t159.707-159.707 220.27-58.843 220.27 58.843 159.707 159.707 58.843 220.27z"></path>
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:gottaegbert@outlook.com">
+            <span class="contact-link">gottaegbert@outlook.com</span>
+            <span class="iconfont">
+              <svg width="16px" height="16px" viewBox="0 0 1024 1024">
+                <path d="M903.808 239.04l-818.304 0 0 545.92 852.992 0 0-545.92-34.688 0zM869.664 273.152l-329.536 329.536c-15.04 15.04-41.248 15.04-56.288 0l-329.6-329.536 715.392 0zM119.616 286.752l221.536 221.504-221.536 221.536 0-443.072zM146.848 750.848l218.464-218.432 94.432 94.4c13.952 13.952 32.512 21.664 52.256 21.664s38.304-7.712 52.256-21.664l94.432-94.432 218.432 218.432-730.304 0zM904.384 729.824l-221.536-221.568 221.536-221.568 0 443.136z"></path>
+              </svg>
+            </span>
+          </li>
+            <li>
+            <a href="https://gottaegbert.github.io/Siyu-hu-CV/">
+              <span class="contact-link">Check out the Online Resume for better experience</span>
+              <span class="iconfont">
+<!--              <svg width="16px" height="16px" viewBox="0 0 1024 1024">-->
+<!--                <path d="M903.808 239.04l-818.304 0 0 545.92 852.992 0 0-545.92-34.688 0zM869.664 273.152l-329.536 329.536c-15.04 15.04-41.248 15.04-56.288 0l-329.6-329.536 715.392 0zM119.616 286.752l221.536 221.504-221.536 221.536 0-443.072zM146.848 750.848l218.464-218.432 94.432 94.4c13.952 13.952 32.512 21.664 52.256 21.664s38.304-7.712 52.256-21.664l94.432-94.432 218.432 218.432-730.304 0zM904.384 729.824l-221.536-221.568 221.536-221.568 0 443.136z"></path>-->
+<!--              </svg>-->
+            </span>
+          </a>
+        </li>
+        <li>
+
+        </li>
+      </ul>
+    </section>
+  </header>
+
+  <div class="content-bd">
+
+    <div class="content-left">
+      <section class="education">
+        <header class="section-hd">
+          <span class="section-title-l"></span>
+          <h2 class="section-title">Education</h2>
+          <span class="section-title-r"></span>
+        </header>
+        <div class="section-bd">
+          <div class="item">
+            <header class="item-hd">
+              <h3 class="item-name">Politechnico di Milano</h3>
+              <span class="item-time">2021.09-2023.06</span>
+              <a class="btn item-more" href="https://www.polimi.it/en">Polimi</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>School of Design - Msc Digital and Interaction Design</li>
+              </ul>
+            </div>
+          </div>
+          <!--Education:USTB HNU NUS-->
+          <div class="item">
+            <header class="item-hd">
+              <h3 class="item-name">University of Science and Technology Beijing</h3>
+              <span class="item-time">2017.08-2021.06</span>
+              <a class="btn item-more" href="https://en.ustb.edu.cn/">USTB</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>Department of Industrial Design</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="item">
+            <header class="item-hd">
+
+              <h3 class="item-name">Hunan University </h3>
+              <br>
+              <span class="item-time"> 2019.09-2020.01</span>
+              <a class="btn item-more" href="http://www-en.hnu.edu.cn/">HNU</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>School of Design</li>
+              </ul>
+            </div>
+      </section>
+      <section class="education">
+        <header class="section-hd">
+          <span class="section-title-l"></span>
+          <h2 class="section-title">Experience</h2>
+          <span class="section-title-r"></span>
+        </header>
+        <div class="section-bd">
+
+          <!--经历:工作-->
+          <div class="item">
+            <header class="item-hd">
+              <h3 class="item-name">Hunan TV Happy Camp Vision Group Intern</h3>
+              <span class="item-time">2019.11-2020.2</span>
+              <a class="btn item-more" href="https://www.instagram.com/p/B4gr4QQgL_ndCr_wsDfiQbspujPQPmv1sKlMK80/">Internship</a>
+            </header>
+            <div class="item-bd">
+              <!--              <p class="item-des">于<a href="http://shouyin.meituan.com/">SasS餐厅收银系统</a>的前端开发，包括：</p>-->
+              <ul class="section-content">
+                <li>Understand the internal design specifications and entertainment culture of top variety shows</li>
+<!--                <li>The overall visual presentation of the tutoring stage</li>-->
+<!--                <li>Model the game props according to the director’s plan</li>-->
+<!--                <li>Special session on graphic design and animation of program related links</li>-->
+<!--                <li>C4D animation design</li>-->
+              </ul>
+            </div>
+          </div>
+          <!--work:Nolibox-->
+          <div class="item">
+            <header class="item-hd">
+              <a class="btn item-more" href="https://logoluck.cn/">Developer</a>
+              <h3 class="item-name">Nolibox Co.,Ltd. Front-end developer</h3>
+              <br>
+              <span class="item-time">2020.8-now</span>
+            </header>
+            <div class="item-bd">
+
+              <ul>
+                <li> Start-Up Project LogoLuck with Academy of Arts & Design, Tsinghua University and AI lab in Peking University </li>
+                <li>
+                  Front-end design and developer
+                </li>
+<!--                <li>-->
+<!--                  AI-generated Logo, base on my knowledge-->
+<!--                  <br>-->
+<!--                  on processing to do creative coding on the Ai-Logo Product-->
+<!--                </li>-->
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+<!--            <header class="item-hd">-->
+<!--              <h3 class="item-name">China-German Virtual Reality Design Workshop</h3>-->
+<!--              <span class="item-time">2019.10</span>-->
+<!--              <a class="btn item-more" href="https://designpf.hs-pforzheim.de/aktuelles/detailansicht/news/exchange_programme_of_design_between_germany_and_china">Workshop</a>-->
+<!--            </header>-->
+<!--            <div class="item-bd">-->
+<!--              <p class="item-des">Participated in the VR design workshop at <a href="http://design.hnu.edu.cn/">Hunan University School of Design</a><a href="http://design.hnu.edu.cn"></a>-->
+<!--              <h3>Under the guidance of two teachers from the Pforzheim School of Design, Germany</h3>-->
+<!--              <ul class="section-content">-->
+<!--                <li>The team worked together to create a concept innovation <a href="https://www.bilibili.com/video/BV1Pe411x7NX">Nike virtual shoe store</a></li>-->
+<!--                <li>Thought about future virtual services and experience methods</li>-->
+<!--              </ul>-->
+<!--            </div>-->
+
+            <div class="item">
+              <header class="item-hd">
+                <h3 class="item-name">National University of Singapore summer visit</h3>
+                <span class="item-time">2019.8</span>
+                <a class="btn item-more" href="http://www.nus.edu.sg/">NUS</a>
+              </header>
+              <div class="item-bd">
+                <p class="item-des">Visited and studied urban design related courses at <a href="https://www.sde.nus.edu.sg/arch/programmes/master-of-arts-in-urban-design/">School of Design&Environment</a>
+                <ul class="section-content">
+                  <li>Experienced the teaching of its postgraduate workshop model</li>
+                  <li>Visited Nanyang Technological University</li>
+
+                </ul>
+              </div>
+
+              <div class="item">
+                <header class="item-hd">
+                  <h3 class="item-name">Art Activity Volunteers</h3>
+                  <br>
+                  <span class="item-time">2018.9</span>
+                  <a class="btn item-more" href="https://art.163.com/18/0926/09/DSKCHORI009998LP.html">Volunteer</a>
+                </header>
+
+                <div class="item-bd">
+                  <p class="item-des">In <a href="https://www.bjdw.org/">2018 Beijing International Design Week  </a>  Assisted artist Numen to <br>complete the public art: <a href="https://art.163.com/18/0926/09/DSKCHORI009998LP.html"> Everyday Impact</a>
+                </div>
+                  <ul class="section-content">
+               <div class="item">
+<!--                 <header class="item-hd">-->
+<!--                   <h3 class="item-name">English Lecturer</h3>-->
+<!--                   <br>-->
+<!--                   <span class="item-time">2018.9-now</span>-->
+<!--                   <a class="btn item-more" href="https://art.163.com/18/0926/09/DSKCHORI009998LP.html">Lecturer</a>-->
+<!--                 </header>-->
+<!--                      <div class="item-bd">-->
+<!--                  <p class="item-des">Teach English to junior students in USTB </a>-->
+<!--                </div>-->
+
+      </section>
+      <section class="award">
+        <header class="section-hd">
+          <span class="section-title-l"></span>
+          <h2 class="section-title">Awards</h2>
+          <span class="section-title-r"></span>
+        </header>
+        <div class="section-bd">
+          <div class="item">
+            <header class="item-hd">
+              <h3 class="item-name">China National Encouragement Scholarship </h3><!--              <br>-->
+              <span class="item-time">Academic year 2019-2020</span>
+              <a class="btn item-more" href="https://en.ustb.edu.cn/">Scholarship</a>
+
+            <div class="item-bd">
+              <ul>　　　　　<br>　　　　　
+                <p>(Performance ranking: 3/48)</p>
+              </ul>
+            </div>
+            </header>
+          <div class="item">
+            <header class="item-hd">
+              <h3 class="item-name">2020 "Challenge Cup" National Prize </h3>
+              <br>
+              <span class="item-time">National Second Prize</span>
+              <a class="btn item-more">EarSee</a>
+              <div class="item-bd">
+                <ul>　　　　　　　　　　
+                  <p>Software Copyright Blindness Assistance System</p>
+                </ul>
+              </div>
+              <div class="item">
+                <header class="item-hd">
+                  <h3 class="item-name"> OPPO&CIDIH  Renovators</h3>
+                  <br>
+                  <span class="item-time">2020 Shortlist Award </span>
+                  <a class="btn item-more" href="https://campus.oppo.com/cn/details/index.html?bnVtYmVyJTNEQzAwMjAz">Dance in a Flash</a>
+                  <div class="item-bd">
+                    <ul>　　　　　　　　　　
+                      <p>OPPO CAMPUS Renovators Global Emerging Artists Project</p>
+                    </ul>
+                  </div>
+
+
+            <header class="item-hd">
+              <h3 class="item-name">2020 National University Student Social Practice <br>
+                and Science Contest on Energy Saving & Emission Reduction</h3>
+              <br>
+              <span class="item-time">National First Prize</span>
+              <a class="btn item-more">Light of Universe</a>
+            </header>
+            <header class="item-hd">
+              <h3 class="item-name">2018 National English Competition for College Students
+                      </h3>
+              <br>
+              <span class="item-time">National Third Prize</span>
+              <a class="btn item-more">English</a>
+            </header>
+                  <header class="item-hd">
+                    <h3 class="item-name">Mixed Chorus in Choral Performance of
+                      <br>Beijing University Students Music Festival
+                    </h3>
+                    <br>
+                    <span class="item-time">Silver Medal</span>
+                    <a class="btn item-more">Choir</a>
+                  </header>
+
+
+
+
+
+
+              </div>
+      </section>
+
+
+
+    </div>
+
+
+    <div class="content-right">
+      <section class="project">
+        <header class="section-hd">
+          <span class="section-title-l"></span>
+          <h2 class="section-title">Project</h2>
+          <span class="section-title-r"></span>
+        </header>
+        <div class="section-bd">
+          Click the link for details
+
+
+
+          <!--项目:动奥-->
+          <div class="item">
+            <header class="item-hd">
+              <a class="btn item-more" href="https://bang.ifeng.com/c/special/7wmw7q8fp7A#list">Moving Olympics</a>
+            </header>
+            <div class="item-bd">
+              <ul>
+                <li>
+                  2020 China "Winter Dream Ambassador" Creative Challenge for 2022 Beijing Winter Olympics<a href="https://mp.weixin.qq.com/s/GhdIQcw0WNinObKD2ppYdg">
+                </li>
+                <li>Golden prize & Workshop 1st</a>
+                </li>
+<!--                <li>-->
+<!--                  Use AI to recognize skier movements in videos and generate skeletal animation-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  Unity realizes real-time special effects performance and AR experience-->
+<!--                </li>-->
+              </ul>
+            </div>
+          </div>
+          <!--项目:>AI Mirror-->
+          <div class="item">
+            <header class="item-hd">
+              <a class="btn item-more" href="https://dl.acm.org/action/doSearch?AllField=AI+Mirror%3A+Visualize+AI%27s+Self-knowledge">AI Mirror: Visualize AI’s Self-knowledge</a>
+            </header>
+            <div class="item-bd">
+              <ul>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=xQJhiB0shjg&feature=emb_title">The ACM Multimedia 2020
+                    Interactive Arts Exhibition</a></li>
+                <li>Published the paper as first author and participated in the online exhibition</li>
+<!--                <li>-->
+<!--                  Conceptual interactive device to explore the chameleon attribute of AI and the attitude of future consciousness-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                  Use projection device and motion recognition hardware with unity special effects for in-depth interaction-->
+<!--                </li>-->
+              </ul>
+            </div>
+          </div>
+          <!--项目:once upon a time away from shcool-->
+          <div class="item">
+            <header class="item-hd">
+              <a class="btn item-more" href="https://gottaegbert.github.io/webshow1/trendingofschopen.html">Once upon a time away from school</a>
+            </header>
+            <div class="item-bd">
+              <ul>
+                <li><a href=https://mp.weixin.qq.com/s?__biz=MzIxNjY3MjAyOQ==&mid=2247483819&idx=1&sn=ea6c1721d3662f627c59eeadca3c214d&chksm=978433d9a0f3bacfa23c2dd8cef4835170db3c0268fb6438adbb8d95b2912de124af62833bb1&mpshare=1&scene=1&srcid=0727NRVUB69vwln9xDHdYAZ4&sharer_sharetime=1595842031583&sharer_shareid=3ecff05fbf94991a084d4445db9d49b4&key=a1d17b2e5fa790922a7259a721741e15f95121d854c2caab1de52338482887f2ae9e618586ff006fc4282f6ae874bff4b95aa43eaee30e4726c9fde3f79a90f3190da38bac8c585815b7e4cfcbbdd2fd&ascene=1&uin=OTM4OTQ2OTc2&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=A%2F9aX2l7%2B1QiWOIdh%2BeWvqc%3D&pass_ticket=xcpwxtCPHEg3Pevi0moUAtjy%2BPskLX9AdlHGwnke7l9BU2szPiV1C2ViKJP4Plka">ChinaVISAP’20 art visualization challenge</a> National Third Prize</li>
+<!--                <li>-->
+<!--                  Inculuding web scraping and data cleansing Weibo hot trending data, website coding and implementation-->
+<!--                </li>-->
+              </ul>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </section>
+      <section class="skills">
+        <header class="section-hd">
+          <span class="section-title-l"></span>
+          <h2 class="section-title">Skills</h2>
+          <span class="section-title-r"></span>
+        </header>
+        <div class="section-bd">
+
+
+          <div class="item">
+            <header class="item-hd">
+              <span class="item-time">Web design and development</span>
+              <a class="btn item-more">Web Design</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>systematically studied HTML5 Javascript CSS</li>
+                <li>Understand SVG language and its animation</li>
+                <li>React framework or Boostrap.js to build website</li>
+                <li>Creative coding of processing and<br> P5.js, ml5.js, matter.js three.js D3.js library</li>
+                <!--                <li>Use Alibaba Cloud to build a <a href="http://39.97.189.6"> wordpress Blog</a></li>-->
+              </ul>
+            </div>
+          </div>
+
+          <!--Unity-->
+          <div class="item">
+            <header class="item-hd">
+              <span class="item-time">Unity game engine</span>
+              <a class="btn item-more">Game</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>Game design [Lost Soldier]<a href="https://www.bilibili.com/video/BV1Ut4y1X7PE?from=search&seid=995320889996753983"></a></li>
+
+              </ul>
+            </div>
+          </div>
+          <!--平面-->
+          <div class="item">
+            <header class="item-hd">
+              <span class="item-time">Prototype</span>
+              <a class="btn item-more">Interactive</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>Figma Adobe XD PS AI AE PR etc.</li>
+              </ul>
+            </div>
+          </div>
+          <!--Unity-->
+          <div class="item">
+            <header class="item-hd">
+              <span class="item-time">Modeling</span>
+              <a class="btn item-more">Product</a>
+            </header>
+            <div class="item-bd">
+              <ul class="section-content">
+                <li>Rhino and solidworks</li>
+                <li>Hand-drawn skills with a certain modeling thinking logic</li>
+
+              </ul>
+            </div>
+            <div class="item">
+              <header class="item-hd">
+                <span class="item-time">Motion Graph</span>
+                <a class="btn item-more">Video</a>
+              </header>
+              <div class="item-bd">
+                <ul class="section-content">
+                  <li>After Effect</li>
+                  <li>Cinema 4d with redshift rendering</li>
+
+          </div>
+
+
+          </ul>
+        </div>
+    </div>
+
+
+  </div>
+  </div>
+
+      <section class="Hobby">
+        <header class="section-hd">
+          <span class="section-title-l"></span>
+          <h2 class="section-title">Hobbies</h2>
+          <span class="section-title-r"></span>
+        </header>
+        <div class="section-bd">
+
+
+          <div class="item">
+            <header class="item-hd">
+            <span class="item-time"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                         width="24" height="24"
+                                         viewBox="0 0 24 24"
+                                         style=" fill:#000000;">    <path d="M 17 2 A 2 2 0 0 0 15 4 A 2 2 0 0 0 17 6 A 2 2 0 0 0 19 4 A 2 2 0 0 0 17 2 z M 10.648438 4.9277344 L 6.4160156 7.1113281 L 7.3339844 8.8886719 L 10.851562 7.0722656 L 12.070312 7.4316406 L 10.267578 11.003906 A 2 2 0 0 0 10 12 A 2 2 0 0 0 10.736328 13.546875 A 2 2 0 0 0 10.746094 13.554688 L 13.847656 16.445312 L 13.857422 16.455078 L 12.0625 21.302734 L 13.9375 21.998047 L 16.142578 16.044922 L 16.136719 16.037109 L 13.966797 12.535156 L 15.287109 9.8964844 L 16.720703 12 L 21 12 L 21 10 L 17.779297 10 L 15.730469 6.9960938 L 15.724609 6.9921875 A 2 2 0 0 0 14.457031 6.0546875 L 14.451172 6.0507812 L 10.648438 4.9277344 z M 9.4414062 14.398438 L 8.8769531 15 L 4 15 L 4 17 L 9.7441406 17 L 10.900391 15.767578 L 9.4414062 14.398438 z"></path></svg>Running</span>
+              <header class="item-hd">
+            <span class="item-time"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                         width="24" height="24"
+                                         viewBox="0 0 24 24"
+                                         style=" fill:#000000;">    <path d="M 18.414062 2 C 18.158188 2 17.902031 2.0974687 17.707031 2.2929688 L 16 4 L 20 8 L 21.707031 6.2929688 C 22.098031 5.9019687 22.098031 5.2689063 21.707031 4.8789062 L 19.121094 2.2929688 C 18.925594 2.0974687 18.669937 2 18.414062 2 z M 14.5 5.5 L 5 15 C 5 15 6.005 15.005 6.5 15.5 C 6.995 15.995 6.984375 16.984375 6.984375 16.984375 C 6.984375 16.984375 8.004 17.004 8.5 17.5 C 8.996 17.996 9 19 9 19 L 18.5 9.5 L 14.5 5.5 z M 3.6699219 17 L 3 21 L 7 20.330078 L 3.6699219 17 z"></path></svg>
+              Pen sketch
+            </span>
+              </header>
+
+
+            </header>  <header class="item-hd">
+          <span class="item-time"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                       width="24" height="24"
+                                       viewBox="0 0 24 24"
+                                       style=" fill:#000000;">    <path d="M 12 2 C 10.34 2 9 3.34 9 5 C 9 6.66 10.34 8 12 8 C 13.66 8 15 6.66 15 5 C 15 3.34 13.66 2 12 2 z M 12 4 C 12.55 4 13 4.45 13 5 C 13 5.55 12.55 6 12 6 C 11.45 6 11 5.55 11 5 C 11 4.45 11.45 4 12 4 z M 3 8 L 3 19 C 10 19 12 22 12 22 C 12 22 14 19 21 19 L 21 8 C 14 8 12 11 12 11 C 12 11 10 8 3 8 z"></path></svg>
+            Reading</span>
+            <header class="item-hd">
+          <span class="item-time"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                       width="24" height="24"
+                                       viewBox="0 0 24 24"
+                                       style=" fill:#000000;"><path d="M 18.59375 3 L 12.25 9.34375 C 12.273438 10.203125 12.378906 11.121094 13 11.4375 L 19.40625 5 L 22 5 L 22 3 Z M 10.0625 7.21875 C 9.898438 7.203125 9.730469 7.238281 9.5625 7.3125 C 8.425781 7.828125 7.578125 8.914063 7.5625 10.1875 C 7.554688 10.796875 7.105469 11.3125 6.5 11.3125 C 4.355469 11.3125 1.183594 13.441406 2.21875 16.6875 C 2.566406 17.777344 4.597656 21 7.5625 21 C 9.933594 21 11.875 19.070313 11.875 16.6875 C 11.875 16.089844 12.308594 15.621094 12.90625 15.625 C 13.875 15.632813 14.695313 14.976563 14.96875 14.09375 C 15.066406 13.78125 14.828125 13.457031 14.5 13.4375 C 13.09375 13.355469 12.34375 12.964844 11.875 12.375 C 11.148438 11.464844 11.015625 10.363281 11 8.21875 C 10.996094 7.671875 10.558594 7.261719 10.0625 7.21875 Z M 9 12 L 11 14 L 10 15 L 8 13 Z M 7 14 L 9 16 L 8 17 L 6 15 Z"></path></svg>
+            Rock n' roll</span>
+            </header>
+          </header>
+
+
+
+          </div>
+        </div>
+        <section class="Statement">
+          <header class="section-hd">
+            <span class="section-title-l"></span>
+            <h2 class="section-title">Words</h2>
+            <span class="section-title-r"></span>
+          </header>
+          <div class="section-bd">
+            <div class="item">
+              <header class="center">
+                Become a priority in your life and kiss time
+              </header>
+            </div>
+          </div>
+
+
+</main>
+
+<footer class="github-footer">
+  <a class="footer-link" href="#">The page is hosted on Github Pages</a>
+</footer>
+</body>
+</html>
