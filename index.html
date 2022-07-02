@@ -21,7 +21,8 @@
 
   ol, ul {
 
-    list-style: none
+    list-style: none;
+    padding-left: 1em;
   }
 
   table {
@@ -403,13 +404,14 @@
 
   .content-bd section {
     overflow: hidden;
-    padding: 10px 15px
+    padding: 5px 15px
   }
 
   .content-bd .section-hd {
     position: relative;
-    height: 32px;
-    margin: 10px auto 5px;
+    height: 36px;
+    margin: 10px auto 16px;
+    border-bottom: 1px solid #000000 ;
     overflow: hidden
   }
 
@@ -419,38 +421,21 @@
 
   .content-bd .section-bd ul li {
     margin-top: 8px;
-    list-style: square inside
+    list-style: square outside
+
   }
 
   .content-bd .section-bd .item {
-    margin-bottom: 20px
+    margin-bottom: 16px
   }
 
-  .content-bd .section-title-l, .content-bd .section-title-r {
-    position: absolute;
-    top: 90%;
-    display: inline-block;
-    width: 50%;
-    height: 0;
-    vertical-align: middle;
-    border-top: 1px solid #101010
-  }
-
-  .content-bd .section-title-l {
-    left: 0
-  }
-
-  .content-bd .section-title-r {
-    right: 0
-  }
 
   .content-bd .section-title {
-    position: 20%;
     z-index: 1;
     width: 24%;
     min-width: 100px;
-    margin: 4px 0px;
-    padding: 4px 0px;
+    margin: 0px 0px;
+    padding: 6px 0px;
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
     -ms-border-radius: 32px;
@@ -483,17 +468,22 @@
   }
 
   .content-bd .item-hd .item-time {
+   font-size: 13px;
+   font-family: Inter, Arial, Helvetica, sans-serif;
     display: inline-block;
     float: left;
     width: 60%
+    
   }
 
   @media screen and (max-width: 720px) {
     .content-bd .item-hd .item-time {
       width: 100%;
       margin-bottom: 5px
+  
     }
   }
+  
 
   .content-bd .item-hd .item-more {
     position: absolute;
@@ -502,12 +492,16 @@
   }
 
   .content-bd .item-hd .item-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
     float: left
   }
 
   .content-bd .item-bd {
     font-size: 14px;
-    color: #999999;
+    font-weight: 200;
+    color: #000000;
     margin-bottom: 5px
   }
 
@@ -548,7 +542,7 @@
     -o-border-radius: 3px;
     border-radius: 3px;
     font-weight: 500;
-    color: #444;
+    color: rgb(0, 0, 0);
     margin: 2px;
     padding: 0 3px;
     background-color: #f6f6f6
@@ -556,23 +550,25 @@
 
   .content-bd .practice .item-time {
     width: 100%
+    
   }
 
   .btn {
     display: inline-block;
-    padding: 0 5px;
-    border: 1px solid #51795a;
-    border-radius: 3px;
-    color: #51795a;
-    font-family: Menlo, Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
+    padding: 0 3px;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px
     line-height: 18px;
     text-align: center
   }
 
   .btn:hover {
     color: #fff;
-    background-color: #51795a
+    background-color: #000000
   }
 
   .github-footer {
@@ -621,7 +617,7 @@
           <ul>
             <li>
               <a href="https://egbert.vercel.app/">
-                <span class="contact-link">Portfolio-web</span>
+                <span class="contact-link">Portfolio</span>
                 <span class="iconfont">
                   <svg width="16px" height="16px" viewBox="0 0 1024 1024">
                   <path d="M512 42.581333l-469.333333 469.333333 31.146667 31.146667L170.666667 446.250667l0 438.186667 682.666667 0L853.333333 446.208l96.853333 96.896 31.146667-31.146667L512 42.581333zM426.666667 841.770667l0-298.666667 170.666667 0 0 298.666667L426.666667 841.770667zM810.666667 841.770667l-170.666667 0 0-341.333333L384 500.437333l0 341.333333L213.333333 841.770667 213.333333 403.584l298.666667-298.666667 298.666667 298.666667L810.666667 841.770667z"></path>
@@ -640,8 +636,8 @@
               </a>
             </li>
             <li>
-              <a href="mailto:gottaegbert@outlook.com">
-                <span class="contact-link">gottaegbert@outlook.com</span>
+              <a href="mailto:liuxinyue128@gmail.com">
+                <span class="contact-link">liuxinyue128@gmail.com</span>
                 <span class="iconfont">
                   <svg width="16px" height="16px" viewBox="0 0 1024 1024">
                     <path d="M903.808 239.04l-818.304 0 0 545.92 852.992 0 0-545.92-34.688 0zM869.664 273.152l-329.536 329.536c-15.04 15.04-41.248 15.04-56.288 0l-329.6-329.536 715.392 0zM119.616 286.752l221.536 221.504-221.536 221.536 0-443.072zM146.848 750.848l218.464-218.432 94.432 94.4c13.952 13.952 32.512 21.664 52.256 21.664s38.304-7.712 52.256-21.664l94.432-94.432 218.432 218.432-730.304 0zM904.384 729.824l-221.536-221.568 221.536-221.568 0 443.136z"></path>
@@ -674,43 +670,30 @@
         <div class="section-bd">
           <div class="item">
             <header class="item-hd">
-              <h3 class="item-name">Politechnico di Milano</h3>
-              <span class="item-time">2021.09-2023.06</span>
-              <a class="btn item-more" href="https://www.polimi.it/en">Polimi</a>
+              <span class="item-time">2021.09 - 2024.06 </span>
+              <br>
+              <h3 class="item-name">Beijing Institute of Technology (BIT)<br>School of Design & Art</br></h3>
+              <a class="btn item-more" href="https://english.bit.edu.cn/">MFA Candidate</a>
             </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>School of Design - Msc Digital and Interaction Design</li>
-              </ul>
-            </div>
           </div>
           <!--Education:USTB HNU NUS-->
           <div class="item">
             <header class="item-hd">
-              <h3 class="item-name">University of Science and Technology Beijing</h3>
-              <span class="item-time">2017.08-2021.06</span>
-              <a class="btn item-more" href="https://en.ustb.edu.cn/">USTB</a>
+              <span class="item-time">2017.09 - 2021.06</span>
+              <br>
+              <h3 class="item-name">University of Science and Technology Beijing (USTB)<br>Department of Industrial Design</h3>
+              <a class="btn item-more" href="https://en.ustb.edu.cn/">B.Eng.</a>
             </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>Department of Industrial Design</li>
-              </ul>
-            </div>
           </div>
 
 
           <div class="item">
             <header class="item-hd">
-
-              <h3 class="item-name">Hunan University </h3>
+              <span class="item-time"> 2019.09 - 2020.01</span>
               <br>
-              <span class="item-time"> 2019.09-2020.01</span>
-              <a class="btn item-more" href="http://www-en.hnu.edu.cn/">HNU</a>
+              <h3 class="item-name">Hunan University (HNU)<br>School of Design </h3>
+              <a class="btn item-more" href="http://www-en.hnu.edu.cn/">Exchange Student</a>
             </header>
-            <div class="item-bd">
-              <ul class="section-content">
-                <li>School of Design</li>
-              </ul>
             </div>
       </section>
       <section class="education">
@@ -899,25 +882,20 @@
       <section class="project">
         <header class="section-hd">
           <span class="section-title-l"></span>
-          <h2 class="section-title">Project</h2>
+          <h2 class="section-title">Publications</h2>
           <span class="section-title-r"></span>
         </header>
         <div class="section-bd">
-          Click the link for details
 
-
-
-          <!--项目:动奥-->
+          <!--项目:hicclip-->
           <div class="item">
             <header class="item-hd">
-              <a class="btn item-more" href="https://bang.ifeng.com/c/special/7wmw7q8fp7A#list">Moving Olympics</a>
+              <a class="btn item-more" href="https://dl.acm.org/doi/10.1145/3491101.3519886">CHI EA'22 -paper</a>
             </header>
             <div class="item-bd">
               <ul>
                 <li>
-                  2020 China "Winter Dream Ambassador" Creative Challenge for 2022 Beijing Winter Olympics<a href="https://mp.weixin.qq.com/s/GhdIQcw0WNinObKD2ppYdg">
-                </li>
-                <li>Golden prize & Workshop 1st</a>
+                  <b>Xinyue Liu</b>, Xipei Ren, and Xiaoqing Sun. 2022. Hicclip: A Smart Sealing Rack Using Interactive Sounds to Intervene Snack Addictions. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (CHI EA '22). ACM.<a href="https://mp.weixin.qq.com/s/GhdIQcw0WNinObKD2ppYdg">
                 </li>
 <!--                <li>-->
 <!--                  Use AI to recognize skier movements in videos and generate skeletal animation-->
@@ -928,17 +906,14 @@
               </ul>
             </div>
           </div>
-          <!--项目:>AI Mirror-->
+          <!--项目:>Review1-->
           <div class="item">
             <header class="item-hd">
-              <a class="btn item-more" href="https://dl.acm.org/action/doSearch?AllField=AI+Mirror%3A+Visualize+AI%27s+Self-knowledge">AI Mirror: Visualize AI’s Self-knowledge</a>
+              <a class="btn item-more" href="https://dl.acm.org/action/doSearch?AllField=AI+Mirror%3A+Visualize+AI%27s+Self-knowledge">HCII2022-paper</a>
             </header>
             <div class="item-bd">
               <ul>
-                <li>
-                  <a href="https://www.youtube.com/watch?v=xQJhiB0shjg&feature=emb_title">The ACM Multimedia 2020
-                    Interactive Arts Exhibition</a></li>
-                <li>Published the paper as first author and participated in the online exhibition</li>
+                <li>Liu, X., Ren, X., Pan, S. (2022). Persuasive Design for Healthy Eating: A Scoping Review. In: Streitz, N.A., Konomi, S. (eds) Distributed, Ambient and Pervasive Interactions. Smart Living, Learning, Well-being and Health, Art and Creativity. HCII 2022. LNCS, vol 13326. Springer, Cham.</li>
 <!--                <li>-->
 <!--                  Conceptual interactive device to explore the chameleon attribute of AI and the attitude of future consciousness-->
 <!--                </li>-->
@@ -951,11 +926,11 @@
           <!--项目:once upon a time away from shcool-->
           <div class="item">
             <header class="item-hd">
-              <a class="btn item-more" href="https://gottaegbert.github.io/webshow1/trendingofschopen.html">Once upon a time away from school</a>
+              <a class="btn item-more" href="https://gottaegbert.github.io/webshow1/trendingofschopen.html">HCII2021-paper</a>
             </header>
             <div class="item-bd">
               <ul>
-                <li><a href=https://mp.weixin.qq.com/s?__biz=MzIxNjY3MjAyOQ==&mid=2247483819&idx=1&sn=ea6c1721d3662f627c59eeadca3c214d&chksm=978433d9a0f3bacfa23c2dd8cef4835170db3c0268fb6438adbb8d95b2912de124af62833bb1&mpshare=1&scene=1&srcid=0727NRVUB69vwln9xDHdYAZ4&sharer_sharetime=1595842031583&sharer_shareid=3ecff05fbf94991a084d4445db9d49b4&key=a1d17b2e5fa790922a7259a721741e15f95121d854c2caab1de52338482887f2ae9e618586ff006fc4282f6ae874bff4b95aa43eaee30e4726c9fde3f79a90f3190da38bac8c585815b7e4cfcbbdd2fd&ascene=1&uin=OTM4OTQ2OTc2&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=A%2F9aX2l7%2B1QiWOIdh%2BeWvqc%3D&pass_ticket=xcpwxtCPHEg3Pevi0moUAtjy%2BPskLX9AdlHGwnke7l9BU2szPiV1C2ViKJP4Plka">ChinaVISAP’20 art visualization challenge</a> National Third Prize</li>
+                <li> Liu X., He S., Zhao X., Tan H. (2021) What Will Influence Pregnant Women's Acceptance of Fully Automated Vehicles?. In: Stephanidis C., Antona M., Ntoa S. (eds) HCI International 2021 - Posters. HCII 2021. Communications in Computer and Information Science, vol 1421. Springer, Cham.</li>
 <!--                <li>-->
 <!--                  Inculuding web scraping and data cleansing Weibo hot trending data, website coding and implementation-->
 <!--                </li>-->
