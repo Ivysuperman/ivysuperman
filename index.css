@@ -64,13 +64,17 @@ font-family: Helvetica Neue, Helvetica, Arial, Microsoft YaHei, sans-serif;
 -webkit-font-smoothing: antialiased;
 -webkit-text-size-adjust: none;
 /* background-color: #eee; */
-background-image: url(image/bg.png) ;
-background-size: 2506px 1684px;
-overflow: auto;
+background-image: url(image/bg3.png);
+/* background-position: left; */
+/* background-repeat: no-repeat; */
+background-size: 1920px 1300px;
+background-attachment: fixed;
+/* background-size: 100% 50%; */
+/* overflow: auto; */
 padding-top: 5px;
 /*text-transform: capitalize;*/
-
 }
+
 /*cv*/
 /*@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);*/
 
@@ -409,12 +413,12 @@ width: 50%
 
 .content-bd .content-left {
 float: left;
-padding: 2px 10px 10px 0px;
+padding: 2px 10px 10px 10px;
 }
 
 .content-bd .content-right {
 float: right;
-padding: 2px 0px 10px 10px;
+padding: 2px 10px 10px 10px;
 }
 
 .content-bd section {
@@ -542,6 +546,17 @@ font-weight: 200;
 color: #000000;
 margin-bottom: 5px
 }
+
+/* .item-tag {
+  font-size: 12px;
+  font-weight: 200;
+  color: #ffffff;
+  padding: 2px 4px;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin: 4px 0px 
+  } */
 
 .content-bd .item-des {
 margin-bottom: 16px
